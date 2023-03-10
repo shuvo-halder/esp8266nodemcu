@@ -1,0 +1,27 @@
+step 1:-
+#using Arduino
+
+use blank file as like:- 
+  void setup() {
+    // don't write anything here.
+  }
+
+  void loop() {
+    // don't write anything here.
+  }
+  
+  #make sure you don't write anything in arduino ide
+  
+  
+step 2:-
+#using python 
+make sure you have to download python in your device, and install pip in your device
+then open your command prompt, then type
+  py -your python version(exP: -3.9) -m pip install esptool
+  
+then hit enter, after download and install pip esptool in your computer. 
+then type 
+  py -3.9 -m esptool --chip esp8266 --port COM4(espboard port) erase_flash
+then hit enter, and wait some time, it takes 1-2 minutes
+
+  
