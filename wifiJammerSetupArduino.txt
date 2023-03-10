@@ -1,0 +1,17 @@
+download ESP8266 wifi jammer from github - https://github.com/SpacehuhnTech/esp8266_deauther
+
+then go to DIY Tutorial, then select install .bin
+now select  CH340/CH341 Drivers - http://www.wch-ic.com/downloads/CH341SER_ZIP.html
+
+from left side, now you go to click installation (ARDUINO IDE)
+
+Extract the ESP8266 Deauther zip you downloaded
+Go into the esp8266_deauther folder and open esp8266_deauther.ino with Arduino IDE
+In Arduino IDE, go to File > Preferences and add this URL to the Additional Boards Manager URLs: https://raw.githubusercontent.com/SpacehuhnTech/arduino/main/package_spacehuhn_index.json
+Now go to Tools > Board > Boards Manager, search deauther, and install Deauther ESP8266 Boards
+Select your board at Tools > Board and be sure it is at Deauther ESP8266 Boards (and not at ESP8266 Modules)!
+Plugin your Deauther and select its COM port at Tools > Port
+Optional: To reset/override previous settings select Tools > Erase Flash > All Flash Contents
+Press upload
+
+happy jamming...
